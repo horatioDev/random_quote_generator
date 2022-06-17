@@ -6,6 +6,10 @@
     border: 1px red dashed;
 }
 
+.button {
+    display: flex;
+    padding: 20px;
+}
 
 /* Core Styles */
 #wrapper {
@@ -13,13 +17,15 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    padding: 24px;
 }
 
 .container {
-    width: 450px;
+    width: 640px;
+    height: auto;
     background: #a3a3a3;
     margin: auto;
-    border: 1px red dashed;
+    border-radius: 8px;
 }
 .container h1 {
     font-style: italic;
@@ -27,9 +33,11 @@
     margin: 8px;
 }
 
+.container #button {
+    justify-content: center;
+}
 #output {
     width: 95%;
-    height: 40px;
     text-align: center;
     background: #fff;
     color: #000;
@@ -38,8 +46,9 @@
 }
 
 #button {
-    text-align: center;
-    width: 100px;
-    margin-bottom: 16px;
-    margin-left: 170px;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
 }
