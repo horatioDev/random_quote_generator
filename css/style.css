@@ -27,21 +27,16 @@
     margin: 8px;
 }
 
-span {
-    font-size: 24px;
-    font-style: italic;
-    font-weight: bold;
-    margin: 8px;
-}
-#text,
-#author {
+#output {
     width: 95%;
-    height: 2em;
+    height: 40px;
+    text-align: center;
     background: #fff;
     color: #000;
-    border-radius: 16px;
+    border-radius: 8px;
     margin: 8px;
 }
+
 #button {
     text-align: center;
     width: 100px;
